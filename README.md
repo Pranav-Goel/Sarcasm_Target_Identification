@@ -3,7 +3,7 @@ by **Aditya Joshi, Pranav Goel, Pushpak Bhattacharyya, and Mark J Carman**
 
 This repository contains all the documented scripts and files to run our experiments which can serve as a baseline system for future systems built for the new task introduced by us -  Sarcasm Target Identification.
 
-**Details (including results) can be found in our paper (with the title above) accepted for publication at LREC 2018 (full main conference paper). The PDF of the paper can be found at [here](http://www.lrec-conf.org/proceedings/lrec2018/pdf/583.pdf)**
+**Details (including results) can be found in our paper (with the title above) accepted for publication at LREC 2018 (full main conference paper). The PDF of the paper can be found at [here](http://www.lrec-conf.org/proceedings/lrec2018/pdf/583.pdf).**
 
 ### If the code or the experiments described in the paper help your own work, or you use our dataset for your own experiments, or the the task we introduce is relevant, *please cite our paper* -
 @InProceedings{JOSHI18.583,
@@ -19,12 +19,16 @@ This repository contains all the documented scripts and files to run our experim
   language = {english}
   }
   
+  
 Abstract: Past work in computational sarcasm deals primarily with sarcasm detection. In this paper, we introduce a novel, related problem: sarcasm target identification (i.e., extracting the target of ridicule in a sarcastic sentence). As a benchmark, we introduce a new dataset for the task. This dataset is manually annotated for the sarcasm target in book snippets and tweets based on our formulation of the task. We then introduce an automatic approach for sarcasm target identification. It is based on a combination of two types of extractors: one based on rules, and another consisting of a statistical classifier. Our introductory approach establishes the viability of sarcasm target identification, and will serve as a baseline for future work.
+
 Keywords: Sentiment Analysis, Computational Sarcasm, Aspect Extraction
 
 
 ### Subdirectories - 
 
 Code/			- 		This contains all the Python Scripts, and bash instructions.
+
 Data/			- 		This provides link to our data, and also the external sentiment lexicon we used.
+
 Manual/			- 		This contains an User Manual and a Programmer Manual which will be of great use in order to run the codes.
